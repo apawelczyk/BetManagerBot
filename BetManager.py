@@ -1,10 +1,7 @@
 import os
-from dotenv import load_dotenv
 import discord
 
 # Get Bot token from settings file
-BASEDIR = os.path.abspath(os.path.dirname(__file__))
-load_dotenv(os.path.join(BASEDIR, '.env'))
 token = os.getenv("TOKEN")
 
 # Connect Bot to Discord
