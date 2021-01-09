@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import discord
+import GoogleSheetsAPI
 
 # Get Bot token from settings file
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
@@ -22,7 +23,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    await message.channel.send("Test 3!")
+    await message.channel.send(GoogleSheetsAPI.GetRows())
     return
 
 # Launch Bot
