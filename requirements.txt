@@ -5,3 +5,5 @@ python-dotenv
 discord
 google-api-core==1.21.0
 google-api-python-client==1.10.0
+google_auth_oauthlib
+google
