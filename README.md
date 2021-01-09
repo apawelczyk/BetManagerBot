@@ -1,1 +1,2 @@
 # BetManagerBot
+Discord Bot
